@@ -1,0 +1,35 @@
+{
+  "name": "umi-plugin-disable-devtool",
+  "author": "yangjianfei <1294485765@qq.com>",
+  "description": "umi项目生产环境禁用react-devtool（防止别人看到组件结构分析代码）",
+  "version": "1.0.0",
+  "private": false,
+  "main": "dist/cjs/index.js",
+  "types": "dist/cjs/index.d.ts",
+  "scripts": {
+    "dev": "father dev",
+    "build": "father build"
+  },
+  "keywords": [],
+  "authors": {
+    "name": "yangjianfei <1294485765@qq.com>",
+    "email": "1294485765@qq.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YangJianFei/umi-plugin-disable-devtool"
+  },
+  "bugs": {
+    "url": "https://github.com/YangJianFei/umi-plugin-disable-devtoolissues"
+  },
+  "homepage": "https://github.com/YangJianFei/umi-plugin-disable-devtool#readme",
+  "license": "MIT",
+  "files": [
+    "dist"
+  ],
+  "devDependencies": {
+    "father": "^4.1.8",
+    "typescript": "^5.0.3",
+    "umi": "3.5.0"
+  }
+}
