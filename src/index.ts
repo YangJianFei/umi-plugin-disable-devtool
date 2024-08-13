@@ -3,7 +3,7 @@ import type { IApi } from 'umi';
 export default (api: IApi) => {
   // See https://umijs.org/docs/guides/plugins
   api.addHTMLHeadScripts(() => {
-    if (process.env.UMI_ENV != 'dev') {
+    if (process.env.NODE_ENV != 'development' && process.env.NODE_ENV != 'dev') {
       return [
         {
           content: `

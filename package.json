@@ -2,7 +2,7 @@
   "name": "umi-plugin-disable-devtool",
   "author": "yangjianfei <1294485765@qq.com>",
   "description": "umi项目生产环境禁用react-devtool（防止别人看到组件结构分析代码）",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "private": false,
   "main": "dist/cjs/index.js",
   "types": "dist/cjs/index.d.ts",
